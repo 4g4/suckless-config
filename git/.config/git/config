@@ -1,0 +1,55 @@
+[user]
+	name = liuxueyang
+	email = liuxueyang457@gmail.com
+[core]
+	excludesFile = ~/.config/git/ignore
+	quotepath = off
+
+[include]
+	path = ~/.config/git/gitalias.txt
+
+[core]
+    pager = delta
+	editor = vim
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+	navigate = true  # use n and N to move between diff sections
+	# features = collared-trogon
+	# features = coracias-caudatus
+	features = hoopoe
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+# [url "ssh://git@github.com/"]
+# 	insteadOf = https://github.com/
+[push]
+	autoSetupRemote = true
+[alias]
+	append = town append
+	compress = town compress
+	contribute = town contribute
+	diff-parent = town diff-parent
+	hack = town hack
+	kill = town kill
+	observe = town observe
+	park = town park
+	prepend = town prepend
+	propose = town propose
+	rename-branch = town rename-branch
+	repo = town repo
+	set-parent = town set-parent
+	ship = town ship
+	sync = town sync
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
