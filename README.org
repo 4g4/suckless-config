@@ -6,3 +6,5 @@
 6. https://github.com/ohmyzsh/ohmyzsh/
 7. https://github.com/atuinsh/atuin
 8. https://github.com/alacritty/alacritty-theme
+   1. https://iterm2colorschemes.com/
+   2. https://github.com/Gogh-Co/Gogh
