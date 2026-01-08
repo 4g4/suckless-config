@@ -1,0 +1,18 @@
+# dark themes
+# theme = "autumn"
+# theme = "bogster"
+theme = "amberwood"
+
+# light themes
+# theme = "ayu_light"
+# theme = "cyan_light"
+# theme = "papercolor-light"
+
+# [lsp]
+# enable = true
+
+[editor]
+auto-format = true
+
+[editor.auto-save]
+focus-lost = true

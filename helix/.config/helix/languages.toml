@@ -1,0 +1,9 @@
+[[language]]
+name = "c"
+language-id = "c"
+language-servers = ["clangd"]
+auto-format = true
+
+[language-server.clangd]
+command = "clangd"
+args = ["--compile-commands-dir=."]
