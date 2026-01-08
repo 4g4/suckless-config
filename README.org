@@ -1,0 +1,6 @@
+1. https://github.com/amix/vimrc
+2. https://github.com/ohmybash/oh-my-bash
+3. https://github.com/iDvel/rime-ice
+4. https://github.com/LazyVim/LazyVim
+5. https://github.com/gpakosz/.tmux
+6. https://github.com/ohmyzsh/ohmyzsh/
