@@ -4,3 +4,4 @@
 4. https://github.com/LazyVim/LazyVim
 5. https://github.com/gpakosz/.tmux
 6. https://github.com/ohmyzsh/ohmyzsh/
+7. https://github.com/atuinsh/atuin

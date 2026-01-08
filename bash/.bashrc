@@ -158,3 +158,8 @@ source "$OSH"/oh-my-bash.sh
 
 test -s ~/.alias && . ~/.alias || true
 export PATH=$HOME/.config/emacs/bin:$PATH
+
+. "$HOME/.atuin/bin/env"
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"
