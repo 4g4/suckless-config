@@ -1,2 +1,3 @@
-colorscheme shine
+" colorscheme shine
+colorscheme dracula
 
