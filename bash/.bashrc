@@ -101,6 +101,7 @@ completions=(
 # Add wisely, as too many aliases slow down shell startup.
 aliases=(
   general
+  tools
 )
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -110,6 +111,9 @@ aliases=(
 plugins=(
   git
   bashmarks
+  fzf
+  zoxide
+  sudo
 )
 
 # Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -157,6 +161,7 @@ source "$OSH"/oh-my-bash.sh
 # alias ohmybash="mate ~/.oh-my-bash"
 
 test -s ~/.alias && . ~/.alias || true
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
 export PATH=$HOME/.config/emacs/bin:$PATH
 
 . "$HOME/.atuin/bin/env"
