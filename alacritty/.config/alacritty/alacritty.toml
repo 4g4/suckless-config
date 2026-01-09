@@ -35,11 +35,6 @@ style = "Regular"
 [hints]
 alphabet = "jfkdls;ahgurieowpq"
 
-[[keyboard.bindings]]
-chars = "\u001F"
-key = "Slash"
-mods = "Control"
-
 [mouse]
 hide_when_typing = false
 
@@ -57,3 +52,9 @@ startup_mode = "Maximized"
 [window.padding]
 x = 9
 y = 18
+
+[keyboard]
+bindings = [
+  { key = "[", mods = "Control", chars = "\u001b" },
+  { key = "Slash", mods = "Control", chars = "\u001F"},
+]
