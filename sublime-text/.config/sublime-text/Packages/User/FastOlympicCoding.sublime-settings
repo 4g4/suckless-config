@@ -1,0 +1,14 @@
+{
+	"tests_file_suffix": "__tests",
+	"run_settings": [
+		{
+			"name": "C++",
+			"extensions": ["cpp"],
+			"compile_cmd": "g++ '{source_file}' -std=c++23 -o test/{file_name}",
+			"run_cmd": "./test/\"{file_name}\" {args} -debug",
+			"lint_compile_cmd": "g++ -std=c++23 '{source_file}' -I '{source_file_dir}'",
+		},
+	],
+	"tests_relative_dir": "test",
+	"close_sidebar": false,
+}

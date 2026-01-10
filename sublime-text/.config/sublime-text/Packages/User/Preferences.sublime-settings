@@ -1,0 +1,18 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_size": 15,
+	"color_scheme": "Amaterasu.sublime-color-scheme",
+	"font_face": "Maple Mono NF CN",
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 2,
+	"caret_style": "smooth",
+	"tab_size": 2,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"highlight_line": true,
+	"theme": "Adaptive.sublime-theme",
+}
