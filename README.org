@@ -8,3 +8,4 @@
 8. https://github.com/alacritty/alacritty-theme
    1. https://iterm2colorschemes.com/
    2. https://github.com/Gogh-Co/Gogh
+9. https://github.com/DrSwad/FastOlympicCodingHook
