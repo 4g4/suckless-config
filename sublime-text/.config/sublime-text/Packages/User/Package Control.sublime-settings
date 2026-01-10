@@ -5,8 +5,12 @@
 	],
 	"installed_packages":
 	[
+		"Clang Format",
+		"Colorsublime",
 		"CppFastOlympicCoding",
 		"Default File Type",
+		"LSP",
+		"LSP-clangd",
 		"Okami – Adaptive Color Schemes",
 		"Package Control",
 	],

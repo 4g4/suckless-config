@@ -1,0 +1,10 @@
+// Settings in here override those in "LSP-clangd/LSP-clangd.sublime-settings"
+
+{
+	"initializationOptions": {
+		"fallbackFlags": [
+			"-I/home/rakuyo/cpp/header",
+			"-D_DEBUG",
+		],
+	}
+}

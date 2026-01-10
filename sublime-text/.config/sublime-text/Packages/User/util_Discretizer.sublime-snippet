@@ -1,0 +1,42 @@
+<snippet>
+  <content><![CDATA[
+struct Discretizer {
+  VI a;
+  bool sorted = false;
+
+  void add(int x) {
+    a.pb(x);
+    sorted = false;
+  }
+  void build() {
+    sort(all(a));
+    a.erase(unique(all(a)), a.end());
+    sorted = true;
+  }
+  int get(int x) {
+    if (!sorted) build();
+    auto it = lower_bound(all(a), x);
+    assert(it != a.end());
+    return int(it - a.begin()) + 1;
+  }
+  int original(int pos) {
+    if (!sorted) build();
+    int len{SZ(a)};
+    assert(pos >= 1 && pos <= len);
+    return a[pos - 1];
+  }
+  int size() {
+    if (!sorted) build();
+    return SZ(a);
+  }
+  void clear() {
+    a.clear();
+    sorted = false;
+  }
+};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>util_Discretizer</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.c++</scope>
+</snippet>

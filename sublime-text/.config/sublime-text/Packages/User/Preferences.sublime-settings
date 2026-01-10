@@ -2,7 +2,7 @@
 // and are overridden in turn by syntax-specific settings.
 {
 	"font_size": 15,
-	"color_scheme": "Amaterasu.sublime-color-scheme",
+	"color_scheme": "Packages/Colorsublime - Themes/ant.tmTheme",
 	"font_face": "Maple Mono NF CN",
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
@@ -15,4 +15,5 @@
 	],
 	"highlight_line": true,
 	"theme": "Adaptive.sublime-theme",
+	"index_files": true,
 }

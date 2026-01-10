@@ -4,11 +4,12 @@
 		{
 			"name": "C++",
 			"extensions": ["cpp"],
-			"compile_cmd": "g++ '{source_file}' -std=c++23 -o test/{file_name}",
+			"compile_cmd": "g++ -std=c++23 -D_DEBUG -DMYNOCOLOR -Wall -Wextra -fstack-protector-all -D_FORTIFY_SOURCE=2 -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -O2 -g -I$HOME/cpp/header '{source_file}' -o test/{file_name}",
 			"run_cmd": "./test/\"{file_name}\" {args} -debug",
-			"lint_compile_cmd": "g++ -std=c++23 '{source_file}' -I '{source_file_dir}'",
+			"lint_compile_cmd": "g++ -std=c++23 -D_DEBUG -DMYNOCOLOR -Wall -Wextra -fstack-protector-all -D_FORTIFY_SOURCE=2 -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -O2 -g -I$HOME/cpp/header -I'{source_file_dir}' '{source_file}'",
 		},
 	],
 	"tests_relative_dir": "test",
 	"close_sidebar": false,
+	"stress_time_limit_seconds": 5,
 }
