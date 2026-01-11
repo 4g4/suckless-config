@@ -3,8 +3,8 @@
 {
 	"initializationOptions": {
 		"fallbackFlags": [
-			"-I/home/rakuyo/cpp/header",
 			"-D_DEBUG",
 		],
+		"clangd.clang-tidy": true,
 	}
 }

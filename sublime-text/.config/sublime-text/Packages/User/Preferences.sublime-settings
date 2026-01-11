@@ -2,7 +2,7 @@
 // and are overridden in turn by syntax-specific settings.
 {
 	"font_size": 15,
-	"color_scheme": "Packages/Colorsublime - Themes/ant.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Active4D.tmTheme",
 	"font_face": "Maple Mono NF CN",
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
